@@ -6,6 +6,7 @@ import Generic from '../assets/svg/Generic.svg'
 import Jobs from '../assets/svg/Jobs.svg'
 import Person from '../assets/svg/Person.svg'
 import Heart from '../assets/svg/Heart.svg'
+import Exit from '../assets/svg/Exit.svg'
 
 export default function Sidebar() {
   const [selected, setSelected] = useState(0)
@@ -49,6 +50,10 @@ export default function Sidebar() {
           </li>
         ))}
       </ul>
+
+      <div className="exit">
+        <img src={Exit} alt="Exit" className="exit-icon" />
+      </div>
     </nav>
   )
 }

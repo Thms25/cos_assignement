@@ -1,0 +1,24 @@
+.card {
+    // padding: 24px;
+    gap: 0px;
+    border-radius: 16px;;
+
+    margin: 24px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(218, 229, 228, 1);
+
+    .title {
+        padding-left: 24px;
+        h4 {
+            font-family: "Nunito Sans";
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 28px;
+            text-align: left;
+            color: rgba(41, 50, 50, 1);
+
+        }
+        display: flex;
+        gap: 12px;
+    }
+}
