@@ -33,7 +33,7 @@ export default function Sidebar() {
   ]
 
   return (
-    <nav className="navbar">
+    <nav className="sidebar">
       <div className="logo-container">
         <img src={Logo} alt="Logo" className="logo" />
       </div>

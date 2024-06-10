@@ -1,0 +1,78 @@
+.navbar {
+    // width: calc(100% - 74px);
+    // height: 50px;
+    // position: fixed;
+    // right: 0;
+    // top: 0;
+
+    width: calc(100% - 74px);
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 74px;
+    right: 0;
+    
+    background: radial-gradient(ellipse at 50% 50%, #DBE1FF 0%, #EEFBF5 100%);
+
+    .nav-container {
+        height: 100%;
+        padding: 0px 32px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h3 {
+            font-family: "Nunito Sans";
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 24px;
+            text-align: left;
+            color: rgba(20, 29, 29, 1);
+        }
+
+
+        .searchbar {
+            width: 264px;
+            height: 36px;
+            padding: 0px 12px;
+            gap: 10px;
+            border-radius: 8px;
+            
+            display: flex;
+            align-items: center;
+            
+            background: rgba(255, 255, 255, 1);
+            border: 1px;
+            border: 1px solid rgba(220, 228, 230, 1);
+
+            .search-icon {
+                cursor: pointer;
+            }
+
+            .input-text {
+                font-family: 'Lato';
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 20px;
+                text-align: left;
+                color: rgba(111, 121, 121, 1);
+                width: 214px;
+                height: 20px;
+                gap: 4px;
+                border: none;
+                &:focus {
+                    outline: none;
+                  }
+            }
+        }
+
+        .avatar-container {
+            width: 32px;
+            height: 32px;
+            cursor: pointer;
+        }
+
+    }
+
+
+}
