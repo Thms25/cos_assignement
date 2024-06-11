@@ -70,41 +70,45 @@ export default function Quests() {
   }, [])
 
   return (
-    <Card title="Quests" width="862.5px" height="471px" icon={Info}>
-      <section className="quests-container">
-        {loaded && quests.length ? (
-          <div className="quests">
-            {quests.map(quest => (
-              <QuestCard
-                key={quest.id}
-                title={getTitle(
-                  quest.type,
-                  quest.contact,
-                  quest.job,
-                  quest.company,
-                )}
-                subtitle={getSubtitle(quest)}
-                icon={getIcon(quest)}
-                button={quest.type === 'install_extension' ? Install : cta}
-                // button={cta}
-              />
-            ))}
+    <Card
+      title="Quests"
+      width="862.5px"
+      height="471px"
+      icon={Info}
+      contentHeight="395px"
+    >
+      {loaded && quests.length ? (
+        <div className="quests">
+          {quests.map(quest => (
             <QuestCard
-              title="All Quests completed!"
-              subtitle="You did it! Now, relax and wait for more..."
-              icon={Completed}
+              key={quest.id}
+              title={getTitle(
+                quest.type,
+                quest.contact,
+                quest.job,
+                quest.company,
+              )}
+              subtitle={getSubtitle(quest)}
+              icon={getIcon(quest)}
+              button={quest.type === 'install_extension' ? Install : cta}
+              // button={cta}
             />
-          </div>
-        ) : (
-          <div className="quests">
-            <QuestCard
-              title="All Quests completed!"
-              subtitle="You did it! Now, relax and wait for more..."
-              icon={Completed}
-            />
-          </div>
-        )}
-      </section>
+          ))}
+          <QuestCard
+            title="All Quests completed!"
+            subtitle="You did it! Now, relax and wait for more..."
+            icon={Completed}
+          />
+        </div>
+      ) : (
+        <div className="quests">
+          <QuestCard
+            title="All Quests completed!"
+            subtitle="You did it! Now, relax and wait for more..."
+            icon={Completed}
+          />
+        </div>
+      )}
     </Card>
   )
 }

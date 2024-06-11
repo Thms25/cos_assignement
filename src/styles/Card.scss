@@ -18,4 +18,11 @@
         display: flex;
         gap: 12px;
     }
+
+    .card-content {
+        padding: 1px 24px 16px 24px;
+        border-radius: 16px;
+        border: 1px;
+        overflow-y: scroll;
+    }
 }

@@ -1,7 +1,11 @@
-import React from 'react'
+// Styles
 import '../styles/Navbar.scss'
+
+// Assets
 import Search from '../assets/svg/Search.svg'
 import Avatar from '../assets/images/avatar.png'
+
+// ----------------------------------------------------------
 
 export default function Navbar() {
   return (

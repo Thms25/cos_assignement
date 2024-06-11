@@ -1,13 +1,5 @@
-.quests-container {
-    padding: 16px 24px;
-    border-radius: 16px;
-    border: 1px;
-    overflow-y: scroll;
-    height: 395px;
-    .quests {
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-    }
-
+.quests {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
