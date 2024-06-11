@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react'
 import Info from '../../assets/svg/Info.svg'
 import Completed from '../../assets/svg/quest_icons/completed.svg'
 import cta from '../../assets/svg/quest_icons/cta.svg'
-// import Install from '../../assets/svg/quest_icons/Install.svg'
+import Install from '../../assets/svg/quest_icons/Install.png'
 
 // Styles
 import '../../styles/Quests.scss'
@@ -85,8 +85,8 @@ export default function Quests() {
                 )}
                 subtitle={getSubtitle(quest)}
                 icon={getIcon(quest)}
-                // button={quest.type === 'install_extension' ? Install : cta}
-                button={cta}
+                button={quest.type === 'install_extension' ? Install : cta}
+                // button={cta}
               />
             ))}
             <QuestCard

@@ -14,23 +14,23 @@ type CardProps = {
 export default function Card({
   children,
   title,
-  width,
+  width = '100%',
   height,
   icon,
 }: CardProps) {
   return (
     <section
       className="card"
-      // style={{
-      //   width,
-      //   height,
-      // }}
+      style={{
+        width,
+        height,
+      }}
     >
       <div className="title">
         <h4>{title}</h4>
         {icon && <img src={icon} alt={title} />}
       </div>
-      {children}
+      <div className="card-content">{children}</div>
     </section>
   )
 }

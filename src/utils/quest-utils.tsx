@@ -52,7 +52,7 @@ export function getTitle(
     case 'submit_application':
       return `Submit your application for ${job?.title}'s ${company?.name}`
     case 'resolve-comment':
-      return 'Resolve a comment from '
+      return 'Resolve a comment'
     case 'save_first_company':
       return 'Save your first company'
     case 'add_contact' || 'add_new_contact':
