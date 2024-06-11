@@ -1,4 +1,7 @@
+// Styles
 import '../../styles/MessageCard.scss'
+
+// Assets
 import Reply from '../../assets/svg/recent/Reply.svg'
 
 type messageObject = {
@@ -9,6 +12,8 @@ type messageObject = {
   image?: any
   logo?: any
 }
+
+// ----------------------------------------------------------
 
 export default function MessageCard({ message }: messageObject) {
   return (
