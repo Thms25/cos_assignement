@@ -31,6 +31,13 @@
                 color: rgba(20, 29, 29, 1);
                 margin: 0;
                 padding: 0;
+
+                // this adds 3 dots if text is too long
+                display: -webkit-box;
+                -webkit-line-clamp: 1;
+                -webkit-box-orient: vertical;  
+                overflow: hidden;
+                text-overflow: ellipsis;
             }
                 
             .quest-subtitle {
