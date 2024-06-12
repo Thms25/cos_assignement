@@ -4,7 +4,7 @@ import '../../styles/Card.scss'
 type CardProps = {
   children: React.ReactNode
   button?: React.ReactNode
-  title: string
+  title?: string
   width?: string
   height?: string
   contentHeight?: string
@@ -31,13 +31,15 @@ export default function Card({
         maxWidth: width,
       }}
     >
-      <div className="card-header">
-        <div className="card-title">
-          <h4>{title}</h4>
-          {icon && <img src={icon} alt={title} />}
+      {title && (
+        <div className="card-header">
+          <div className="card-title">
+            <h4>{title}</h4>
+            {icon && <img src={icon} alt={title} />}
+          </div>
+          {button && button}
         </div>
-        {button && button}
-      </div>
+      )}
       <div
         className="card-content"
         style={{

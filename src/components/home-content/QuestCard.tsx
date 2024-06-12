@@ -1,5 +1,6 @@
 // styles
 import '../../styles/QuestCard.scss'
+import Avatar from '../layouts/Avatar'
 
 // --------------------------------------------------------
 
@@ -20,7 +21,7 @@ export default function QuestCard({
     <div className="quest-card">
       <div className="quest-content">
         <div className="quest-icon">
-          <img src={icon} alt="icon" width={45} height={45} />
+          <Avatar src={icon} width="45px" height="45px" />
         </div>
 
         <div className="quest-text">

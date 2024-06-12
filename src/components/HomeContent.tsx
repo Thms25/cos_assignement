@@ -7,6 +7,7 @@ import RecentMessages from './home-content/RecentMessages'
 import Cta from './home-content/Cta'
 import Challenges from './home-content/challenges/Challenges'
 import WeeklyGoals from './home-content/WeeklyGoals'
+import Leaderboard from './home-content/leaderboard/Leaderboard'
 
 export default function HomeContent() {
   return (
@@ -19,6 +20,7 @@ export default function HomeContent() {
         <Cta />
         <WeeklyGoals />
         <Challenges />
+        <Leaderboard />
       </div>
     </section>
   )
