@@ -4,10 +4,11 @@
     margin-left: 74px;
     padding: 32px 48px;
     display: flex;
+    justify-content: center;
     gap: 24px;
 
-    @media screen and (max-width: 768px){
-        display: block;
+    @media screen and (max-width: 920px){
+        flex-direction: column;
         padding: 16px 24px;
     }
 
