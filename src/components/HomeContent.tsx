@@ -5,7 +5,7 @@ import '../styles/HomeContent.scss'
 import Quests from './home-content/Quests'
 import RecentMessages from './home-content/RecentMessages'
 import Cta from './home-content/Cta'
-import Challenges from './home-content/Challenges'
+import Challenges from './home-content/challenges/Challenges'
 import WeeklyGoals from './home-content/WeeklyGoals'
 
 export default function HomeContent() {

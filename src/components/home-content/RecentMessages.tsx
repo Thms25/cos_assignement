@@ -21,6 +21,7 @@ export default function RecentMessages() {
       height="471px"
       contentHeight="395px"
       icon={Info}
+      scroll={true}
     >
       <div className="messages-container">
         {messages.map((message, index) => (

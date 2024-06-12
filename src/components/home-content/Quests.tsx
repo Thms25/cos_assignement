@@ -76,6 +76,7 @@ export default function Quests() {
       height="471px"
       icon={Info}
       contentHeight="395px"
+      scroll={true}
     >
       {loaded && quests.length ? (
         <div className="quests">

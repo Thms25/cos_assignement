@@ -9,6 +9,7 @@ type CardProps = {
   height?: string
   contentHeight?: string
   icon?: string
+  scroll?: boolean
 }
 
 export default function Card({
@@ -19,13 +20,14 @@ export default function Card({
   contentHeight,
   icon,
   button,
+  scroll,
 }: CardProps) {
   return (
     <section
       className="card"
       style={{
         width: '100%',
-        height,
+        maxHeight: height,
         maxWidth: width,
       }}
     >
@@ -40,6 +42,7 @@ export default function Card({
         className="card-content"
         style={{
           height: contentHeight,
+          overflowY: scroll ? 'scroll' : 'hidden',
         }}
       >
         {children}

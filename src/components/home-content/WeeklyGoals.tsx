@@ -7,6 +7,9 @@ import Ellipse_20 from '../../assets/svg/goals/Ellipse_20.svg'
 import Ellipse_40 from '../../assets/svg/goals/Ellipse_40.svg'
 import Ellipse_60 from '../../assets/svg/goals/Ellipse_60.svg'
 
+// Style
+import '../../styles/WeeklyGoals.scss'
+
 export default function WeeklyGoals() {
   const goals = [
     {
@@ -33,7 +36,6 @@ export default function WeeklyGoals() {
       title="Weekly Goals"
       width="862.5px"
       height="279px"
-      contentHeight="250px"
       button={<GoalsCta />}
     >
       <section className="weekly-goals">
