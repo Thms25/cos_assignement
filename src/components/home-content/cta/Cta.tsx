@@ -5,6 +5,7 @@ import '../../../styles/Cta.scss'
 import Visit from '../../../assets/svg/Visit.svg'
 import Avatar from '../../layouts/Avatar'
 import Card from '../../layouts/Card'
+import { Button } from '../../animations/Button'
 
 export default function Cta() {
   return (
@@ -19,10 +20,12 @@ export default function Cta() {
           <h2>MBA Career Hub</h2>
           <p>Visit this channel for Internal Content & Communication</p>
         </div>
-        <div className="cta-btn">
-          <p>Visit now</p>
-          <img src={Visit} alt="visit icon" />
-        </div>
+        <Button>
+          <div className="cta-btn">
+            <p>Visit now</p>
+            <img src={Visit} alt="visit icon" />
+          </div>
+        </Button>
       </div>
     </Card>
   )

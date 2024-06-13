@@ -1,5 +1,6 @@
 // styles
 import '../../../styles/Quests.scss'
+import { Button } from '../../animations/Button'
 
 // Components
 import Avatar from '../../layouts/Avatar'
@@ -31,9 +32,11 @@ export default function QuestCard({
           <h6 className="quest-subtitle">{subtitle}</h6>
         </div>
         {button && (
-          <div className="quest-btn">
-            <img src={button} alt="icon" />
-          </div>
+          <Button>
+            <div className="quest-btn">
+              <img src={button} alt="icon" />
+            </div>
+          </Button>
         )}
       </div>
     </div>

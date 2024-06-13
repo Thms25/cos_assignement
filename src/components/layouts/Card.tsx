@@ -1,5 +1,6 @@
 // Styles
 import '../../styles/Card.scss'
+import { Reveal } from '../animations/Reveal'
 
 type CardProps = {
   children: React.ReactNode
@@ -36,13 +37,15 @@ export default function Card({
       }}
     >
       {title && (
-        <div className="card-header">
-          <div className="card-title">
-            <h4>{title}</h4>
-            {icon && <img src={icon} alt={title} />}
+        <Reveal>
+          <div className="card-header">
+            <div className="card-title">
+              <h4>{title}</h4>
+              {icon && <img src={icon} alt={title} />}
+            </div>
+            {button && button}
           </div>
-          {button && button}
-        </div>
+        </Reveal>
       )}
       <div
         style={{
@@ -51,7 +54,9 @@ export default function Card({
           padding: gap ? '0 24px' : '16px 24px',
         }}
       >
-        {children}
+        <Reveal dly={0.5} duration={1}>
+          {children}
+        </Reveal>
       </div>
     </section>
   )

@@ -3,6 +3,7 @@ import '../../../styles/MessageCard.scss'
 
 // Assets
 import Reply from '../../../assets/svg/recent/Reply.svg'
+import { Button } from '../../animations/Button'
 
 type messageObject = {
   name?: any
@@ -29,11 +30,12 @@ export default function MessageCard({ message }: messageObject) {
             <h3>{message.name}</h3>
             <p>{message.date}</p>
           </div>
-
-          <div className="message-reply">
-            <img src={Reply} alt="Logo" />
-            <p>Reply</p>
-          </div>
+          <Button>
+            <div className="message-reply">
+              <img src={Reply} alt="Logo" />
+              <p>Reply</p>
+            </div>
+          </Button>
         </div>
 
         <p className="message-job">{message.job}</p>
