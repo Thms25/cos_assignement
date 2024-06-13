@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cos_assignement/static/css/main.ad010314.css",
+    "main.css": "/cos_assignement/static/css/main.6a48d30d.css",
     "main.js": "/cos_assignement/static/js/main.37e62f35.js",
     "static/js/206.d7d9f3c4.chunk.js": "/cos_assignement/static/js/206.d7d9f3c4.chunk.js",
     "static/media/Coffee.svg": "/cos_assignement/static/media/Coffee.ba302b7ea4a937fbe5afce4180f65a2a.svg",
@@ -37,7 +37,7 @@
     "static/media/Submit.svg": "/cos_assignement/static/media/Submit.b6896439ed0cf83e1af711d50a23db80.svg"
   },
   "entrypoints": [
-    "static/css/main.ad010314.css",
+    "static/css/main.6a48d30d.css",
     "static/js/main.37e62f35.js"
   ]
 }
