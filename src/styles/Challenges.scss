@@ -8,6 +8,8 @@
     font-family: "Lato";
 
   .challenge-emoji {
+    position: relative;
+    text-align: center;
     width: 35px;
     height: 35px;
     border-radius: 75px;
@@ -17,10 +19,9 @@
     box-shadow: 0px 0px 4px 1px rgba(151, 71, 255, 0.15);
 
     p {
-        width: 20.59px;
-        height: 21.19px;
-        top: 6.9px;
-        left: 7.21px;
+        position: absolute;
+        margin: 0;
+        padding: 0;
 
         font-family: "Lato";
         font-size: 20px;

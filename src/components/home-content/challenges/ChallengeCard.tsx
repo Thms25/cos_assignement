@@ -7,6 +7,7 @@ type ChallengeCardProps = {
   emoji: React.ReactNode
   rate: string
   style?: React.CSSProperties
+  emojiStyle?: React.CSSProperties
 }
 
 export default function ChallengeCard({
@@ -15,11 +16,12 @@ export default function ChallengeCard({
   emoji,
   rate,
   style,
+  emojiStyle,
 }: ChallengeCardProps) {
   return (
     <div className="challenge-card">
       <div style={style} className="challenge-emoji">
-        <p>{emoji}</p>
+        <p style={emojiStyle}>{emoji}</p>
       </div>
       <div className="challenge-info">
         <h4>{title}</h4>

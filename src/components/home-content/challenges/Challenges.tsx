@@ -13,6 +13,10 @@ export default function Challenges() {
       style: {
         border: '1.5px solid rgba(235, 153, 62, 1)',
       },
+      emojiStyle: {
+        top: ' 6.9px',
+        left: '7.21px',
+      },
     },
     {
       title: 'Save 50 contacts to earn the Social Butterfly Badge.',
@@ -22,6 +26,10 @@ export default function Challenges() {
       style: {
         border: '1.5px solid rgba(44, 154, 207, 1)',
       },
+      emojiStyle: {
+        top: ' 7.5px',
+        left: '7.5px',
+      },
     },
     {
       title: 'Send 50 Linkedin invitations to earn the Networking Ninja Badge.',
@@ -30,6 +38,10 @@ export default function Challenges() {
       emoji: '🥷',
       style: {
         border: '1.5px solid rgba(20, 29, 29, 1)',
+      },
+      emojiStyle: {
+        top: ' 7.5px',
+        left: '7.5px',
       },
     },
   ]
@@ -43,6 +55,7 @@ export default function Challenges() {
           emoji={challenge.emoji}
           rate={challenge.rate}
           style={challenge.style}
+          emojiStyle={challenge.emojiStyle}
         />
       ))}
     </Card>
