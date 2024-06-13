@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cos_assignement/static/css/main.0534fbdb.css",
-    "main.js": "/cos_assignement/static/js/main.32c03d9e.js",
+    "main.css": "/cos_assignement/static/css/main.28818b68.css",
+    "main.js": "/cos_assignement/static/js/main.d8256cc6.js",
     "static/js/206.d7d9f3c4.chunk.js": "/cos_assignement/static/js/206.d7d9f3c4.chunk.js",
     "static/media/Coffee.svg": "/cos_assignement/static/media/Coffee.ba302b7ea4a937fbe5afce4180f65a2a.svg",
     "static/media/gold.svg": "/cos_assignement/static/media/gold.71dc0dd3c66733bce5e3ed1ac661a9d9.svg",
@@ -9,6 +9,7 @@
     "static/media/silver.svg": "/cos_assignement/static/media/silver.7e270c8c050a39d64d320f5086ce6809.svg",
     "static/media/Logo.svg": "/cos_assignement/static/media/Logo.331aeeff9ce17c1448ea631ed1e9de73.svg",
     "static/media/Ellipse_60.svg": "/cos_assignement/static/media/Ellipse_60.fe70c26324cf22f16d5c6277a34f20b5.svg",
+    "static/media/Puzzle.svg": "/cos_assignement/static/media/Puzzle.81973becb4747f263ce482bfb807d29a.svg",
     "static/media/Linkedin.svg": "/cos_assignement/static/media/Linkedin.9c13a5709223b51d4a64b3b7a7b1f19b.svg",
     "static/media/Reply.svg": "/cos_assignement/static/media/Reply.38bcac67471ecc651d260ffbb27201e1.svg",
     "static/media/Message.svg": "/cos_assignement/static/media/Message.15af1a2984ba3879aaf0fc42d57b61b0.svg",
@@ -27,6 +28,7 @@
     "static/media/Info.svg": "/cos_assignement/static/media/Info.89698a772fe6c95ed546cdb708d735d7.svg",
     "static/media/Save.svg": "/cos_assignement/static/media/Save.90b91089851327a99da880f7183f8dd0.svg",
     "static/media/Ellipse_40.svg": "/cos_assignement/static/media/Ellipse_40.2750929866ab36a18ecec56de7143769.svg",
+    "static/media/Files.svg": "/cos_assignement/static/media/Files.95c7ace732d09d574bdcb9abbc02ee2d.svg",
     "static/media/Heart.svg": "/cos_assignement/static/media/Heart.5c9475f950a6452ba4f76dbaa8344db5.svg",
     "index.html": "/cos_assignement/index.html",
     "static/media/Ellipse_20.svg": "/cos_assignement/static/media/Ellipse_20.5fd891dcb2b73409d506933c51bdef4f.svg",
@@ -35,7 +37,7 @@
     "static/media/Submit.svg": "/cos_assignement/static/media/Submit.b6896439ed0cf83e1af711d50a23db80.svg"
   },
   "entrypoints": [
-    "static/css/main.0534fbdb.css",
-    "static/js/main.32c03d9e.js"
+    "static/css/main.28818b68.css",
+    "static/js/main.d8256cc6.js"
   ]
 }
