@@ -1,14 +1,14 @@
 // Components
-import Card from '../layouts/Card'
+import Card from '../../layouts/Card'
 
 // Assets
-import Info from '../../assets/svg/Info.svg'
+import Info from '../../../assets/svg/Info.svg'
 
 // Styles
-import '../../styles/MessageCard.scss'
+import '../../../styles/MessageCard.scss'
 
 // Mock Data
-import { messages } from '../../utils/data/messages'
+import { messages } from '../../../utils/data/messages'
 import MessageCard from './MessageCard'
 
 // ----------------------------------------------------------

@@ -1,8 +1,8 @@
 // Assets
-import Pencil from '../../assets/svg/Pencil.svg'
+import Pencil from '../../../assets/svg/Pencil.svg'
 
 // Styles
-import '../../styles/WeeklyGoals.scss'
+import '../../../styles/WeeklyGoals.scss'
 
 // -----------------------------------------------------------------
 

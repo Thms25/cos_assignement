@@ -1,8 +1,8 @@
 // Styles
-import '../../styles/WeeklyGoals.scss'
+import '../../../styles/WeeklyGoals.scss'
 
 // Assets
-import Ellipse_base from '../../assets/svg/goals/Ellipse_base.svg'
+import Ellipse_base from '../../../assets/svg/goals/Ellipse_base.svg'
 
 // Types
 type GoalCardProps = {

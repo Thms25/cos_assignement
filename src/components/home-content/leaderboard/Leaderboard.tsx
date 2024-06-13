@@ -45,7 +45,7 @@ export default function Leaderboard() {
   ]
 
   return (
-    <Card width="862.5px" height="620px" scroll={false}>
+    <Card width="862.5px" height="420px" contentHeight="250px" scroll>
       <section className="leaderboard-container">
         <header className="leader-header">
           <h2 className="leader-title">

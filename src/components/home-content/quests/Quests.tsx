@@ -1,23 +1,23 @@
 import React, { useState, useEffect } from 'react'
 
 // Assets
-import Info from '../../assets/svg/Info.svg'
-import Completed from '../../assets/svg/quest_icons/completed.svg'
-import cta from '../../assets/svg/quest_icons/cta.svg'
-import Install from '../../assets/svg/quest_icons/Install.png'
+import Info from '../../../assets/svg/Info.svg'
+import Completed from '../../../assets/svg/quest_icons/completed.svg'
+import cta from '../../../assets/svg/quest_icons/cta.svg'
+import Install from '../../../assets/svg/quest_icons/Install.png'
 
 // Styles
-import '../../styles/Quests.scss'
+import '../../../styles/Quests.scss'
 
 // mock data
-import QuestsData from '../../utils/data/quests.json'
+import QuestsData from '../../../utils/data/quests.json'
 
 // Components
-import Card from '../layouts/Card'
+import Card from '../../layouts/Card'
 import QuestCard from './QuestCard'
 
 // Utils
-import { getTitle, getSubtitle, getIcon } from '../../utils/quest-utils'
+import { getTitle, getSubtitle, getIcon } from '../../../utils/quest-utils'
 
 type questObject = {
   id: string

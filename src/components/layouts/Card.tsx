@@ -10,6 +10,7 @@ type CardProps = {
   contentHeight?: string
   icon?: string
   scroll?: boolean
+  gap?: boolean
 }
 
 export default function Card({
@@ -21,6 +22,7 @@ export default function Card({
   icon,
   button,
   scroll,
+  gap,
 }: CardProps) {
   return (
     <section
@@ -29,6 +31,8 @@ export default function Card({
         width: '100%',
         maxHeight: height,
         maxWidth: width,
+        padding: !title ? '0' : '24px 0px',
+        gap: gap ? '16px' : '0',
       }}
     >
       {title && (
@@ -41,10 +45,10 @@ export default function Card({
         </div>
       )}
       <div
-        className="card-content"
         style={{
           height: contentHeight,
           overflowY: scroll ? 'scroll' : 'hidden',
+          padding: gap ? '0 24px' : '16px 24px',
         }}
       >
         {children}

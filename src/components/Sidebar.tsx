@@ -1,5 +1,10 @@
-import React, { useState } from 'react'
+// Hooks
+import { useState } from 'react'
+
+// Styles
 import '../styles/Sidebar.scss'
+
+// Assets
 import Logo from '../assets/svg/Logo.svg'
 import Home from '../assets/svg/Home.svg'
 import Generic from '../assets/svg/Generic.svg'
@@ -7,6 +12,10 @@ import Jobs from '../assets/svg/Jobs.svg'
 import Person from '../assets/svg/Person.svg'
 import Heart from '../assets/svg/Heart.svg'
 import Exit from '../assets/svg/Exit.svg'
+import Files from '../assets/svg/Files.svg'
+import Puzzle from '../assets/svg/Puzzle.svg'
+
+// --------------------------------------------
 
 export default function Sidebar() {
   const [selected, setSelected] = useState(0)
@@ -30,6 +39,14 @@ export default function Sidebar() {
     {
       name: 'Heart',
       icon: Heart,
+    },
+    {
+      name: 'Files',
+      icon: Files,
+    },
+    {
+      name: 'Puzzle',
+      icon: Puzzle,
     },
   ]
 

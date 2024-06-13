@@ -1,6 +1,6 @@
 .weekly-goals {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     width: 100%;
     max-width: 814.5px;
@@ -99,13 +99,13 @@
     
 }
 
-    .goals-cta {
+.goals-cta {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 
     width: 122px;
-    height: 28px;
+    // height: 28px;
     padding: 4px 8px;
     gap: 4px;
     border-radius: 4px;
@@ -113,6 +113,8 @@
     cursor: pointer;
 
     p {   
+        margin: 0;
+        padding: 0;
         color: rgba(0, 72, 80, 1);
         font-family: "Lato";
         font-size: 14px;

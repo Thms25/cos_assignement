@@ -34,7 +34,7 @@ export default function Challenges() {
     },
   ]
   return (
-    <Card title="Challenges" width="862.5px" height="244px">
+    <Card title="Challenges" width="862.5px" height="244px" gap>
       {challenges.map((challenge, index) => (
         <ChallengeCard
           key={index}

@@ -1,8 +1,8 @@
 // Styles
-import '../../styles/MessageCard.scss'
+import '../../../styles/MessageCard.scss'
 
 // Assets
-import Reply from '../../assets/svg/recent/Reply.svg'
+import Reply from '../../../assets/svg/recent/Reply.svg'
 
 type messageObject = {
   name?: any

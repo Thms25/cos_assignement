@@ -1,6 +1,8 @@
 // styles
-import '../../styles/QuestCard.scss'
-import Avatar from '../layouts/Avatar'
+import '../../../styles/Quests.scss'
+
+// Components
+import Avatar from '../../layouts/Avatar'
 
 // --------------------------------------------------------
 

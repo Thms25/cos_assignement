@@ -1,14 +1,14 @@
-import Card from '../layouts/Card'
+import Card from '../../layouts/Card'
 import GoalCard from './GoalCard'
 import GoalsCta from './GoalsCta'
 
 // Assets
-import Ellipse_20 from '../../assets/svg/goals/Ellipse_20.svg'
-import Ellipse_40 from '../../assets/svg/goals/Ellipse_40.svg'
-import Ellipse_60 from '../../assets/svg/goals/Ellipse_60.svg'
+import Ellipse_20 from '../../../assets/svg/goals/Ellipse_20.svg'
+import Ellipse_40 from '../../../assets/svg/goals/Ellipse_40.svg'
+import Ellipse_60 from '../../../assets/svg/goals/Ellipse_60.svg'
 
-// Style
-import '../../styles/WeeklyGoals.scss'
+// Styles
+import '../../../styles/WeeklyGoals.scss'
 
 export default function WeeklyGoals() {
   const goals = [
@@ -37,6 +37,7 @@ export default function WeeklyGoals() {
       width="862.5px"
       height="279px"
       button={<GoalsCta />}
+      gap
     >
       <section className="weekly-goals">
         {goals.map((goal, index) => (
